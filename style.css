@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.board{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: aliceblue; */
+}
+
+.board div{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.valid.checked{background-color: lawngreen;}
+/* .bomb{background-color: red;} */
